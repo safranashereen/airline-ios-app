@@ -10,6 +10,9 @@ How to:
 
 Limitations:
 - for free plan API is limited to 1000 request/month, so if request is failed please get a new key and replace key in Config/beta.swift
+- live data is null on the API for most of the cases, live data will be available if API returns only, (displaying the airport location is best option, but we cannot access v1/cities API for free plans
+- v1/search API also not work for free plan)
+- airline images are loading from a free API service which have less bandwidth
 
 
 Referencers:

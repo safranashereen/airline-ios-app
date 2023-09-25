@@ -8,7 +8,7 @@
 import Foundation
 
 struct Config {
-    static let apiKey: String = "6b01f1d87893205195127deabd464e69"
+    static let apiKey: String = "eb172163aca216c8aefe78cc18d1c4fc"
     static let baseUrl: String = "http://api.aviationstack.com/v1/"
     static let limit: String = "10";
     static let offsetDefault: String = "0"

@@ -85,7 +85,7 @@ struct ForgotPasswordView: View {
             } else {
                 showAlert = true
                 alertTitle = Strings.invalidEmail
-                alertMessage = Strings.pleaseEnterYourEmail
+                alertMessage = Strings.pleaseEnterYourValidEmail
             }
             
             

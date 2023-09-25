@@ -52,14 +52,20 @@ struct FlightDetailView: View {
                     }
 
                     //departure
-                    BoundCard(airport: flightSchedule.departure.airport, iata: flightSchedule.departure.airport, scheduledTime: flightSchedule.departure.iata, isArrival: false)
+                    BoundCard(airport: flightSchedule.departure.airport,
+                              iata: flightSchedule.departure.airport,
+                              scheduledTime: flightSchedule.departure.scheduled,
+                              isArrival: false)
                     
                     HStack{
                         Image(systemName: "arrow.down").foregroundColor(AppColors.secondaryColor).padding(.trailing,Dimension.spacePadding)
                     }
                     
                     //arrival
-                    BoundCard(airport: flightSchedule.arrival.airport, iata: flightSchedule.arrival.iata, scheduledTime: flightSchedule.arrival.scheduled, isArrival: true)
+                    BoundCard(airport: flightSchedule.arrival.airport,
+                              iata: flightSchedule.arrival.iata,
+                              scheduledTime: flightSchedule.arrival.scheduled,
+                              isArrival: true)
                     
                     //date and flight bottom cards
                     HStack{

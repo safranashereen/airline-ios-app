@@ -111,7 +111,7 @@ struct LoginView: View {
             } else {
                 showAlert = true
                 alertTitle = Strings.invalidEmail
-                alertMessage = Strings.pleaseEnterYourEmail
+                alertMessage = Strings.pleaseEnterYourValidEmail
             }
         } else {
             showAlert = true
