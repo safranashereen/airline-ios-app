@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94BB0FAA2ABFF5A1001D9825 /* NetworkListner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB0FA92ABFF5A1001D9825 /* NetworkListner.swift */; };
+		94BB0FAC2ABFF77B001D9825 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB0FAB2ABFF77B001D9825 /* ToastView.swift */; };
+		94BB0FAE2AC017A7001D9825 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB0FAD2AC017A7001D9825 /* ForgotPasswordView.swift */; };
+		94BB0FB02AC02294001D9825 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94BB0FAF2AC02293001D9825 /* Launch Screen.storyboard */; };
+		94BB0FB52AC05B65001D9825 /* beta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB0FB42AC05B65001D9825 /* beta.swift */; };
+		94BB0FBB2AC103EE001D9825 /* GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB0FBA2AC103EE001D9825 /* GreetingView.swift */; };
+		94BB0FC12AC1159C001D9825 /* AirlineLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB0FC02AC1159C001D9825 /* AirlineLogo.swift */; };
+		94BB0FC32AC11CAE001D9825 /* FlightStatusBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB0FC22AC11CAE001D9825 /* FlightStatusBadge.swift */; };
+		94BB0FC72AC11F00001D9825 /* AuthImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB0FC62AC11F00001D9825 /* AuthImage.swift */; };
+		94BB0FC92AC1BD41001D9825 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 94BB0FC82AC1BD41001D9825 /* README.md */; };
+		94C43D792ABC004800449A7F /* AirlinesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C43D782ABC004800449A7F /* AirlinesApp.swift */; };
+		94C43D7B2ABC004800449A7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C43D7A2ABC004800449A7F /* ContentView.swift */; };
+		94C43D7D2ABC004A00449A7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C43D7C2ABC004A00449A7F /* Assets.xcassets */; };
+		94C43D802ABC004A00449A7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C43D7F2ABC004A00449A7F /* Preview Assets.xcassets */; };
+		94CB1D012ABC3586003D06B4 /* Airline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB1D002ABC3586003D06B4 /* Airline.swift */; };
+		94CB1D032ABC36F9003D06B4 /* AirlineApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB1D022ABC36F9003D06B4 /* AirlineApiService.swift */; };
+		94CB1D062ABC38ED003D06B4 /* AirlineApiStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB1D052ABC38ED003D06B4 /* AirlineApiStore.swift */; };
+		94CB1D082ABC395E003D06B4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB1D072ABC395E003D06B4 /* Utils.swift */; };
+		94CB1D0B2ABC4A18003D06B4 /* AirlineStateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB1D0A2ABC4A18003D06B4 /* AirlineStateHandler.swift */; };
+		94CB1D0E2ABC4D73003D06B4 /* SingleAirlineCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB1D0D2ABC4D73003D06B4 /* SingleAirlineCard.swift */; };
+		94CB1D122ABC56A4003D06B4 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB1D112ABC56A4003D06B4 /* UIColor+Hex.swift */; };
+		94CB1D1A2ABC6722003D06B4 /* AirlineListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB1D192ABC6722003D06B4 /* AirlineListView.swift */; };
+		94CB1D1F2ABC84C8003D06B4 /* AirlineFlightScheduleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB1D1E2ABC84C8003D06B4 /* AirlineFlightScheduleListView.swift */; };
+		94CB1D212ABC8970003D06B4 /* FlightSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB1D202ABC8970003D06B4 /* FlightSchedule.swift */; };
+		94CB1D232ABC8B35003D06B4 /* FlightScheduleStateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB1D222ABC8B35003D06B4 /* FlightScheduleStateHandler.swift */; };
+		94CB1D272ABC959E003D06B4 /* FlightScheduleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB1D262ABC959E003D06B4 /* FlightScheduleCard.swift */; };
+		94CB1D2F2ABD66F1003D06B4 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB1D2E2ABD66F1003D06B4 /* LoadingView.swift */; };
+		94CB1D312ABD7000003D06B4 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB1D302ABD7000003D06B4 /* ActivityIndicatorView.swift */; };
+		94CB1D3E2ABD9547003D06B4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB1D3D2ABD9547003D06B4 /* MapView.swift */; };
+		94CB1D422ABD9C54003D06B4 /* FlightDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB1D412ABD9C54003D06B4 /* FlightDetailView.swift */; };
+		94CB1D462ABDC64D003D06B4 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB1D452ABDC64D003D06B4 /* EmptyView.swift */; };
+		94CB1D482ABDC66C003D06B4 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB1D472ABDC66C003D06B4 /* ErrorView.swift */; };
+		94CB1D4C2ABDCB05003D06B4 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB1D4B2ABDCB05003D06B4 /* ImageLoader.swift */; };
+		94CB1D4E2ABE81EC003D06B4 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB1D4D2ABE81EC003D06B4 /* TextView.swift */; };
+		94CB1D6D2ABE913D003D06B4 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CB1D6C2ABE913D003D06B4 /* View.swift */; };
+		94F57AC42ABEB06300299994 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F57AC32ABEB06300299994 /* Strings.swift */; };
+		94F57AC72ABECF8900299994 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F57AC62ABECF8900299994 /* ImageView.swift */; };
+		94F57AC92ABEE3B000299994 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F57AC82ABEE3B000299994 /* LoginView.swift */; };
+		94F57ACD2ABEE7B900299994 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 94F57ACC2ABEE7B900299994 /* FirebaseAuth */; };
+		94F57ACF2ABEE7B900299994 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 94F57ACE2ABEE7B900299994 /* FirebaseFirestore */; };
+		94F57AD92ABEE98F00299994 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94F57AD82ABEE98F00299994 /* GoogleService-Info.plist */; };
+		94F57ADB2ABEF16300299994 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F57ADA2ABEF16300299994 /* SignUpView.swift */; };
+		94F57AE12ABF138A00299994 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F57AE02ABF138A00299994 /* CustomTextField.swift */; };
+		94F57AE32ABF18FF00299994 /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F57AE22ABF18FF00299994 /* CustomSecureField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94BB0FA92ABFF5A1001D9825 /* NetworkListner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkListner.swift; sourceTree = "<group>"; };
+		94BB0FAB2ABFF77B001D9825 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		94BB0FAD2AC017A7001D9825 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		94BB0FAF2AC02293001D9825 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		94BB0FB42AC05B65001D9825 /* beta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beta.swift; sourceTree = "<group>"; };
+		94BB0FBA2AC103EE001D9825 /* GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingView.swift; sourceTree = "<group>"; };
+		94BB0FC02AC1159C001D9825 /* AirlineLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineLogo.swift; sourceTree = "<group>"; };
+		94BB0FC22AC11CAE001D9825 /* FlightStatusBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightStatusBadge.swift; sourceTree = "<group>"; };
+		94BB0FC62AC11F00001D9825 /* AuthImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthImage.swift; sourceTree = "<group>"; };
+		94BB0FC82AC1BD41001D9825 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		94C43D752ABC004800449A7F /* Airlines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airlines.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C43D782ABC004800449A7F /* AirlinesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlinesApp.swift; sourceTree = "<group>"; };
+		94C43D7A2ABC004800449A7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		94C43D7C2ABC004A00449A7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94C43D7F2ABC004A00449A7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94CB1D002ABC3586003D06B4 /* Airline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airline.swift; sourceTree = "<group>"; };
+		94CB1D022ABC36F9003D06B4 /* AirlineApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineApiService.swift; sourceTree = "<group>"; };
+		94CB1D052ABC38ED003D06B4 /* AirlineApiStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineApiStore.swift; sourceTree = "<group>"; };
+		94CB1D072ABC395E003D06B4 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		94CB1D0A2ABC4A18003D06B4 /* AirlineStateHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineStateHandler.swift; sourceTree = "<group>"; };
+		94CB1D0D2ABC4D73003D06B4 /* SingleAirlineCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleAirlineCard.swift; sourceTree = "<group>"; };
+		94CB1D112ABC56A4003D06B4 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		94CB1D192ABC6722003D06B4 /* AirlineListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineListView.swift; sourceTree = "<group>"; };
+		94CB1D1E2ABC84C8003D06B4 /* AirlineFlightScheduleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlineFlightScheduleListView.swift; sourceTree = "<group>"; };
+		94CB1D202ABC8970003D06B4 /* FlightSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSchedule.swift; sourceTree = "<group>"; };
+		94CB1D222ABC8B35003D06B4 /* FlightScheduleStateHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightScheduleStateHandler.swift; sourceTree = "<group>"; };
+		94CB1D262ABC959E003D06B4 /* FlightScheduleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightScheduleCard.swift; sourceTree = "<group>"; };
+		94CB1D2E2ABD66F1003D06B4 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		94CB1D302ABD7000003D06B4 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		94CB1D3D2ABD9547003D06B4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		94CB1D412ABD9C54003D06B4 /* FlightDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailView.swift; sourceTree = "<group>"; };
+		94CB1D452ABDC64D003D06B4 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		94CB1D472ABDC66C003D06B4 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		94CB1D4B2ABDCB05003D06B4 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		94CB1D4D2ABE81EC003D06B4 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		94CB1D6C2ABE913D003D06B4 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		94F57AC32ABEB06300299994 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		94F57AC62ABECF8900299994 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		94F57AC82ABEE3B000299994 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		94F57AD82ABEE98F00299994 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		94F57ADA2ABEF16300299994 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		94F57AE02ABF138A00299994 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		94F57AE22ABF18FF00299994 /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94C43D722ABC004800449A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F57ACD2ABEE7B900299994 /* FirebaseAuth in Frameworks */,
+				94F57ACF2ABEE7B900299994 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94BB0FA82ABF7BB2001D9825 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				94CB1D302ABD7000003D06B4 /* ActivityIndicatorView.swift */,
+				94F57AE22ABF18FF00299994 /* CustomSecureField.swift */,
+				94F57AE02ABF138A00299994 /* CustomTextField.swift */,
+				94CB1D452ABDC64D003D06B4 /* EmptyView.swift */,
+				94CB1D472ABDC66C003D06B4 /* ErrorView.swift */,
+				94F57AC62ABECF8900299994 /* ImageView.swift */,
+				94CB1D2E2ABD66F1003D06B4 /* LoadingView.swift */,
+				94CB1D3D2ABD9547003D06B4 /* MapView.swift */,
+				94CB1D4D2ABE81EC003D06B4 /* TextView.swift */,
+				94BB0FAB2ABFF77B001D9825 /* ToastView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		94BB0FB32AC05B42001D9825 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				94BB0FB42AC05B65001D9825 /* beta.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		94C43D6C2ABC004800449A7F = {
+			isa = PBXGroup;
+			children = (
+				94BB0FC82AC1BD41001D9825 /* README.md */,
+				94BB0FAF2AC02293001D9825 /* Launch Screen.storyboard */,
+				94C43D772ABC004800449A7F /* Airlines */,
+				94C43D762ABC004800449A7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94C43D762ABC004800449A7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94C43D752ABC004800449A7F /* Airlines.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94C43D772ABC004800449A7F /* Airlines */ = {
+			isa = PBXGroup;
+			children = (
+				94BB0FB32AC05B42001D9825 /* Config */,
+				94CB1D0C2ABC4D52003D06B4 /* Views */,
+				94CB1D092ABC49FC003D06B4 /* Bndings */,
+				94CB1D042ABC38CF003D06B4 /* Services */,
+				94CB1CFD2ABC3226003D06B4 /* Model */,
+				94CB1D6B2ABE90D6003D06B4 /* Extensions */,
+				94C43D782ABC004800449A7F /* AirlinesApp.swift */,
+				94C43D7A2ABC004800449A7F /* ContentView.swift */,
+				94F57AC22ABEB01E00299994 /* Utils */,
+				94C43D7C2ABC004A00449A7F /* Assets.xcassets */,
+				94F57AD82ABEE98F00299994 /* GoogleService-Info.plist */,
+				94C43D7E2ABC004A00449A7F /* Preview Content */,
+			);
+			path = Airlines;
+			sourceTree = "<group>";
+		};
+		94C43D7E2ABC004A00449A7F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				94C43D7F2ABC004A00449A7F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94CB1CFD2ABC3226003D06B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				94CB1D002ABC3586003D06B4 /* Airline.swift */,
+				94CB1D202ABC8970003D06B4 /* FlightSchedule.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		94CB1D042ABC38CF003D06B4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				94CB1D022ABC36F9003D06B4 /* AirlineApiService.swift */,
+				94CB1D052ABC38ED003D06B4 /* AirlineApiStore.swift */,
+				94BB0FA92ABFF5A1001D9825 /* NetworkListner.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		94CB1D092ABC49FC003D06B4 /* Bndings */ = {
+			isa = PBXGroup;
+			children = (
+				94CB1D4B2ABDCB05003D06B4 /* ImageLoader.swift */,
+				94CB1D0A2ABC4A18003D06B4 /* AirlineStateHandler.swift */,
+				94CB1D222ABC8B35003D06B4 /* FlightScheduleStateHandler.swift */,
+			);
+			path = Bndings;
+			sourceTree = "<group>";
+		};
+		94CB1D0C2ABC4D52003D06B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94F57AC52ABECF6200299994 /* Widgets */,
+				94CB1D1E2ABC84C8003D06B4 /* AirlineFlightScheduleListView.swift */,
+				94CB1D192ABC6722003D06B4 /* AirlineListView.swift */,
+				94CB1D412ABD9C54003D06B4 /* FlightDetailView.swift */,
+				94BB0FAD2AC017A7001D9825 /* ForgotPasswordView.swift */,
+				94F57AC82ABEE3B000299994 /* LoginView.swift */,
+				94F57ADA2ABEF16300299994 /* SignUpView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		94CB1D6B2ABE90D6003D06B4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				94CB1D112ABC56A4003D06B4 /* UIColor+Hex.swift */,
+				94CB1D6C2ABE913D003D06B4 /* View.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		94F57AC22ABEB01E00299994 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				94CB1D072ABC395E003D06B4 /* Utils.swift */,
+				94F57AC32ABEB06300299994 /* Strings.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		94F57AC52ABECF6200299994 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				94BB0FA82ABF7BB2001D9825 /* Common */,
+				94BB0FC02AC1159C001D9825 /* AirlineLogo.swift */,
+				94CB1D262ABC959E003D06B4 /* FlightScheduleCard.swift */,
+				94BB0FC22AC11CAE001D9825 /* FlightStatusBadge.swift */,
+				94BB0FBA2AC103EE001D9825 /* GreetingView.swift */,
+				94CB1D0D2ABC4D73003D06B4 /* SingleAirlineCard.swift */,
+				94BB0FC62AC11F00001D9825 /* AuthImage.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94C43D742ABC004800449A7F /* Airlines */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C43D832ABC004A00449A7F /* Build configuration list for PBXNativeTarget "Airlines" */;
+			buildPhases = (
+				94C43D712ABC004800449A7F /* Sources */,
+				94C43D722ABC004800449A7F /* Frameworks */,
+				94C43D732ABC004800449A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Airlines;
+			packageProductDependencies = (
+				94F57ACC2ABEE7B900299994 /* FirebaseAuth */,
+				94F57ACE2ABEE7B900299994 /* FirebaseFirestore */,
+			);
+			productName = Airlines;
+			productReference = 94C43D752ABC004800449A7F /* Airlines.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94C43D6D2ABC004800449A7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					94C43D742ABC004800449A7F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 94C43D702ABC004800449A7F /* Build configuration list for PBXProject "Airlines" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94C43D6C2ABC004800449A7F;
+			packageReferences = (
+				94F57ACB2ABEE7B900299994 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 94C43D762ABC004800449A7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94C43D742ABC004800449A7F /* Airlines */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94C43D732ABC004800449A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C43D802ABC004A00449A7F /* Preview Assets.xcassets in Resources */,
+				94C43D7D2ABC004A00449A7F /* Assets.xcassets in Resources */,
+				94BB0FB02AC02294001D9825 /* Launch Screen.storyboard in Resources */,
+				94F57AD92ABEE98F00299994 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94C43D712ABC004800449A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CB1D032ABC36F9003D06B4 /* AirlineApiService.swift in Sources */,
+				94F57AC92ABEE3B000299994 /* LoginView.swift in Sources */,
+				94BB0FAC2ABFF77B001D9825 /* ToastView.swift in Sources */,
+				94CB1D462ABDC64D003D06B4 /* EmptyView.swift in Sources */,
+				94CB1D4E2ABE81EC003D06B4 /* TextView.swift in Sources */,
+				94CB1D422ABD9C54003D06B4 /* FlightDetailView.swift in Sources */,
+				94CB1D0B2ABC4A18003D06B4 /* AirlineStateHandler.swift in Sources */,
+				94CB1D122ABC56A4003D06B4 /* UIColor+Hex.swift in Sources */,
+				94BB0FBB2AC103EE001D9825 /* GreetingView.swift in Sources */,
+				94CB1D0E2ABC4D73003D06B4 /* SingleAirlineCard.swift in Sources */,
+				94BB0FB52AC05B65001D9825 /* beta.swift in Sources */,
+				94CB1D482ABDC66C003D06B4 /* ErrorView.swift in Sources */,
+				94CB1D1F2ABC84C8003D06B4 /* AirlineFlightScheduleListView.swift in Sources */,
+				94CB1D1A2ABC6722003D06B4 /* AirlineListView.swift in Sources */,
+				94CB1D062ABC38ED003D06B4 /* AirlineApiStore.swift in Sources */,
+				94F57AC72ABECF8900299994 /* ImageView.swift in Sources */,
+				94CB1D012ABC3586003D06B4 /* Airline.swift in Sources */,
+				94C43D7B2ABC004800449A7F /* ContentView.swift in Sources */,
+				94F57AE32ABF18FF00299994 /* CustomSecureField.swift in Sources */,
+				94BB0FC72AC11F00001D9825 /* AuthImage.swift in Sources */,
+				94C43D792ABC004800449A7F /* AirlinesApp.swift in Sources */,
+				94BB0FAE2AC017A7001D9825 /* ForgotPasswordView.swift in Sources */,
+				94BB0FC12AC1159C001D9825 /* AirlineLogo.swift in Sources */,
+				94CB1D312ABD7000003D06B4 /* ActivityIndicatorView.swift in Sources */,
+				94BB0FC32AC11CAE001D9825 /* FlightStatusBadge.swift in Sources */,
+				94CB1D6D2ABE913D003D06B4 /* View.swift in Sources */,
+				94CB1D4C2ABDCB05003D06B4 /* ImageLoader.swift in Sources */,
+				94BB0FAA2ABFF5A1001D9825 /* NetworkListner.swift in Sources */,
+				94CB1D272ABC959E003D06B4 /* FlightScheduleCard.swift in Sources */,
+				94CB1D082ABC395E003D06B4 /* Utils.swift in Sources */,
+				94CB1D232ABC8B35003D06B4 /* FlightScheduleStateHandler.swift in Sources */,
+				94BB0FC92AC1BD41001D9825 /* README.md in Sources */,
+				94CB1D3E2ABD9547003D06B4 /* MapView.swift in Sources */,
+				94CB1D212ABC8970003D06B4 /* FlightSchedule.swift in Sources */,
+				94F57AE12ABF138A00299994 /* CustomTextField.swift in Sources */,
+				94F57ADB2ABEF16300299994 /* SignUpView.swift in Sources */,
+				94CB1D2F2ABD66F1003D06B4 /* LoadingView.swift in Sources */,
+				94F57AC42ABEB06300299994 /* Strings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		94C43D812ABC004A00449A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94C43D822ABC004A00449A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94C43D842ABC004A00449A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Airlines/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Airlines/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.safrana.Airlines;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94C43D852ABC004A00449A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Airlines/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Airlines/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.safrana.Airlines;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94C43D702ABC004800449A7F /* Build configuration list for PBXProject "Airlines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C43D812ABC004A00449A7F /* Debug */,
+				94C43D822ABC004A00449A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C43D832ABC004A00449A7F /* Build configuration list for PBXNativeTarget "Airlines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C43D842ABC004A00449A7F /* Debug */,
+				94C43D852ABC004A00449A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		94F57ACB2ABEE7B900299994 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		94F57ACC2ABEE7B900299994 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94F57ACB2ABEE7B900299994 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		94F57ACE2ABEE7B900299994 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94F57ACB2ABEE7B900299994 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 94C43D6D2ABC004800449A7F /* Project object */;
+}
