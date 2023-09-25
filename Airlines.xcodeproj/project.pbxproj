@@ -17,6 +17,13 @@
 		94BB0FC32AC11CAE001D9825 /* FlightStatusBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB0FC22AC11CAE001D9825 /* FlightStatusBadge.swift */; };
 		94BB0FC72AC11F00001D9825 /* AuthImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB0FC62AC11F00001D9825 /* AuthImage.swift */; };
 		94BB0FC92AC1BD41001D9825 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 94BB0FC82AC1BD41001D9825 /* README.md */; };
+		94BB0FD12AC1C8D4001D9825 /* Screen4.png in Resources */ = {isa = PBXBuildFile; fileRef = 94BB0FCB2AC1C8D4001D9825 /* Screen4.png */; };
+		94BB0FD22AC1C8D4001D9825 /* Screen3.png in Resources */ = {isa = PBXBuildFile; fileRef = 94BB0FCC2AC1C8D4001D9825 /* Screen3.png */; };
+		94BB0FD32AC1C8D4001D9825 /* Screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = 94BB0FCD2AC1C8D4001D9825 /* Screen1.png */; };
+		94BB0FD62AC1C8D4001D9825 /* Screen7.png in Resources */ = {isa = PBXBuildFile; fileRef = 94BB0FD02AC1C8D4001D9825 /* Screen7.png */; };
+		94BB0FD82AC1C96E001D9825 /* Screen6.png in Resources */ = {isa = PBXBuildFile; fileRef = 94BB0FD72AC1C96E001D9825 /* Screen6.png */; };
+		94BB0FDA2AC1C9AD001D9825 /* Screen5.png in Resources */ = {isa = PBXBuildFile; fileRef = 94BB0FD92AC1C9AD001D9825 /* Screen5.png */; };
+		94BB0FDC2AC1C9D6001D9825 /* Screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = 94BB0FDB2AC1C9D6001D9825 /* Screen2.png */; };
 		94C43D792ABC004800449A7F /* AirlinesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C43D782ABC004800449A7F /* AirlinesApp.swift */; };
 		94C43D7B2ABC004800449A7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C43D7A2ABC004800449A7F /* ContentView.swift */; };
 		94C43D7D2ABC004A00449A7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C43D7C2ABC004A00449A7F /* Assets.xcassets */; };
@@ -64,6 +71,13 @@
 		94BB0FC22AC11CAE001D9825 /* FlightStatusBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightStatusBadge.swift; sourceTree = "<group>"; };
 		94BB0FC62AC11F00001D9825 /* AuthImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthImage.swift; sourceTree = "<group>"; };
 		94BB0FC82AC1BD41001D9825 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		94BB0FCB2AC1C8D4001D9825 /* Screen4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen4.png; sourceTree = "<group>"; };
+		94BB0FCC2AC1C8D4001D9825 /* Screen3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen3.png; sourceTree = "<group>"; };
+		94BB0FCD2AC1C8D4001D9825 /* Screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen1.png; sourceTree = "<group>"; };
+		94BB0FD02AC1C8D4001D9825 /* Screen7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen7.png; sourceTree = "<group>"; };
+		94BB0FD72AC1C96E001D9825 /* Screen6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen6.png; sourceTree = "<group>"; };
+		94BB0FD92AC1C9AD001D9825 /* Screen5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen5.png; sourceTree = "<group>"; };
+		94BB0FDB2AC1C9D6001D9825 /* Screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen2.png; sourceTree = "<group>"; };
 		94C43D752ABC004800449A7F /* Airlines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airlines.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C43D782ABC004800449A7F /* AirlinesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirlinesApp.swift; sourceTree = "<group>"; };
 		94C43D7A2ABC004800449A7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -137,9 +151,24 @@
 			path = Config;
 			sourceTree = "<group>";
 		};
+		94BB0FCA2AC1C8AF001D9825 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				94BB0FCD2AC1C8D4001D9825 /* Screen1.png */,
+				94BB0FDB2AC1C9D6001D9825 /* Screen2.png */,
+				94BB0FCC2AC1C8D4001D9825 /* Screen3.png */,
+				94BB0FCB2AC1C8D4001D9825 /* Screen4.png */,
+				94BB0FD92AC1C9AD001D9825 /* Screen5.png */,
+				94BB0FD72AC1C96E001D9825 /* Screen6.png */,
+				94BB0FD02AC1C8D4001D9825 /* Screen7.png */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 		94C43D6C2ABC004800449A7F = {
 			isa = PBXGroup;
 			children = (
+				94BB0FCA2AC1C8AF001D9825 /* screenshots */,
 				94BB0FC82AC1BD41001D9825 /* README.md */,
 				94BB0FAF2AC02293001D9825 /* Launch Screen.storyboard */,
 				94C43D772ABC004800449A7F /* Airlines */,
@@ -322,9 +351,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94BB0FD32AC1C8D4001D9825 /* Screen1.png in Resources */,
+				94BB0FD62AC1C8D4001D9825 /* Screen7.png in Resources */,
+				94BB0FDC2AC1C9D6001D9825 /* Screen2.png in Resources */,
+				94BB0FD82AC1C96E001D9825 /* Screen6.png in Resources */,
 				94C43D802ABC004A00449A7F /* Preview Assets.xcassets in Resources */,
+				94BB0FD12AC1C8D4001D9825 /* Screen4.png in Resources */,
+				94BB0FDA2AC1C9AD001D9825 /* Screen5.png in Resources */,
 				94C43D7D2ABC004A00449A7F /* Assets.xcassets in Resources */,
 				94BB0FB02AC02294001D9825 /* Launch Screen.storyboard in Resources */,
+				94BB0FD22AC1C8D4001D9825 /* Screen3.png in Resources */,
 				94F57AD92ABEE98F00299994 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
