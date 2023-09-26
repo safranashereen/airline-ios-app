@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyD2pGKWRwQ5iNkoLvVVjDXdz10j7aSWzcI</string>
+	<string>AIzaSyCwbGp6AfQPljFQVi4qUeIXOwOPkI66nDM</string>
 	<key>GCM_SENDER_ID</key>
-	<string>744648380276</string>
+	<string>278891857203</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.safrana.Airlines</string>
 	<key>PROJECT_ID</key>
-	<string>myproject-23408</string>
+	<string>airlines-c7284</string>
 	<key>STORAGE_BUCKET</key>
-	<string>myproject-23408.appspot.com</string>
+	<string>airlines-c7284.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,8 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:744648380276:ios:84ee5a7daf552478f72621</string>
-	<key>DATABASE_URL</key>
-	<string>https://myproject-23408.firebaseio.com</string>
+	<string>1:278891857203:ios:004965003b7427f71c2a46</string>
 </dict>
 </plist>
